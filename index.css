@@ -1,6 +1,13 @@
 h1 {
-  color: teal;
+  font-family: 'Londrina Shadow', cursive;
+  color: white;
+  font-size: 75px;
+}
+.tagline{
+  font-family: 'Pacifico', cursive;
 }
 body{
   text-align: center;
+  background-image: url("cocktails.jpg");
+  background-size: cover;
 }
