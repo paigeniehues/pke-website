@@ -1,10 +1,12 @@
 h1 {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: 'Berkshire Swash', cursive;
   color: white;
   font-size: 75px;
 }
 .tagline{
   font-family: 'Pacifico', cursive;
+  color: #A9A9A9;
+  background-color: rgba(0,0,0,.5);
 }
 body{
   text-align: center;
