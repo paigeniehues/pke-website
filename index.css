@@ -15,6 +15,7 @@ h1 {
   text-align: center;
   background-image: url("cocktails.jpg");
   margin: 0px 100px 0px 100px;
+  height: 500px;
   background-size: cover;
   Background-position: center;
 }
@@ -23,7 +24,7 @@ h1 {
   background: black;
   margin: 0px 100px 0px 100px;
 }
-h3{
+.lists{
   font-family: 'Londrina Shadow', cursive;
   text-align: center;
   color: purple;
