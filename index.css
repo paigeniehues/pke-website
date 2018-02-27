@@ -5,16 +5,19 @@ h1 {
 }
 .tagline{
   font-family: 'Pacifico', cursive;
-  color: #A9A9A9;
+  color: white;
   background-color: rgba(0,0,0,.5);
 }
 .title{
   text-align: center;
   background-image: url("cocktails.jpg");
-  height: 200px;
+  height: 400px;
+  margin: 0px 100px 0px 100px;
   background-size: cover;
   Background-position: center;
 }
 .location{
+  text-align: center;
   background: black;
+  margin: 0px 100px 0px 100px;
 }
