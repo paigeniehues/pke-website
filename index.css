@@ -23,9 +23,12 @@
   Background-position: center;
 }
 .location{
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 80px;
   text-align: center;
   background: black;
   margin: 0px 100px 0px 100px;
+  color: white;
 }
 .lists{
   font-family: 'Berkshire Swash', cursive;
