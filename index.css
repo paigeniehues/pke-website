@@ -23,3 +23,13 @@ h1 {
   background: black;
   margin: 0px 100px 0px 100px;
 }
+h3{
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  color: purple;
+}
+ul{
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  color: black;
+}
