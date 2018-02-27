@@ -55,6 +55,9 @@ ul{
   text-align: center;
   color: black;
 }
+a{
+  color: black;
+}
 #map {
   height: 500px;
   width: cover;
