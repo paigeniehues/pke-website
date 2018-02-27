@@ -8,19 +8,11 @@
 
   <body>
     <div class="title">
+      <div id='buttons'>
+        <button class='btn btn-lg''btn-BARCRAWL'>DIY BAR CRAWL</button>
+      </div>
       <h1 class="website-name"> Bar Fix </h1>
       <h2 class="tagline"> COCKTAILS + BARS + RESTAURANTS</h2>
-      <div id='buttons'>
-        <button class='btn btn-lg''btn-BARCRAWL'>Click to create a personalised bar crawl</button>
-      </div>
-    </div>
-    <div id="style-selector-control" class="map-control">
-          <input type="radio" name="show-hide" id="hide-poi"
-              class="selector-control">
-          <label for="hide-poi">Hide</label>
-          <input type="radio" name="show-hide" id="show-poi"
-              class="selector-control" checked="checked">
-          <label for="show-poi">Show</label>
     </div>
     <div id="map"></div>
           <script>
@@ -28,7 +20,6 @@
               var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 17,
                 center: {lat: 53.380353, lng: -1.476816},
-                mapTypeControl: false
               });
               var bungalowsandbears = {lat: 53.379926, lng: -1.475059};
               var marker = new google.maps.Marker({
