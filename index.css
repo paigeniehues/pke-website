@@ -8,10 +8,13 @@ h1 {
   color: #A9A9A9;
   background-color: rgba(0,0,0,.5);
 }
-body{
+.title{
   text-align: center;
   background-image: url("cocktails.jpg");
   height: 200px;
   background-size: cover;
   Background-position: center;
+}
+.location{
+  background: black;
 }
