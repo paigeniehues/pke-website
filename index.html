@@ -12,10 +12,30 @@
       <h2 class="tagline"> The best cocktail bars and pubs in Sheffield!</h2>
       <!--<h2 class="barcrawl"> PLAN A GREAT BAR CRAWL! </h2>-->
     </div>
+    <div class="map">
+      <h1 class="location"> Locations</h1>
+    <div id="map"></div>
+    
+    <script>
+      function initMap() {
+        var uluru = {lat: 53.3799, lng: -1.4751};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOV9twBPqx6jIyJx2e2jMvQ5Zhk38iDv4&callback=initMap">
+    </script>
+    </div>
     <div class="toplists">
       <h3 class="lists"> Best cocktail bars in Sheffield! </h3>
       <a ul>
-        <ul><a href="https://www.bungalowsandbears.com/">Bungalows and Bears</a></ul>
         <ul><a href="https://www.revoluciondecuba.com/bar/sheffield/">Revolution de Cuba</a></ul>
         <ul><a href="https://www.thewickatbothends.com/">Wick at Both Ends </a></ul>
         <ul><a href="http://www.devonshirecat.co.uk/">Devonshire Cat </a></ul>
@@ -32,7 +52,6 @@
         <ul><a href="https://www.prezzorestaurants.co.uk/restaurant/sheffield-valley/">Prezzo </a></ul>
         <ul><a href="https://www.pizzaexpress.com/sheffield-st-pauls-place">Pizza Express </a></ul>
         <ul><a href="https://bills-website.co.uk/restaurants/sheffield/">Bill's </a></ul>
-        <ul><a href="http://www.sakushi.co.uk/">Sakushi</a></ul>
         <ul><a href="https://www.browns-restaurants.co.uk/restaurants/yorkshireandthehumber/sheffield?utm_source=bing&utm_medium=cpc&utm_campaign=UK%7CEN%7CBI%7CBRD%7CE%7CLocation%7CNorth&utm_term=browns%20sheffield&utm_content=UK%7CEN%7CBI%7CBRD%7CE%7CLocation%7CNorth%7CSheffield&gclid=CNn0gs3ixNkCFQSOhQodYg4LAg&gclsrc=ds">Brown's </a></ul>
       </a ul>
   </body>

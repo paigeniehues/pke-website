@@ -46,5 +46,6 @@ ul{
 }
 #map {
         height: 400px;
-        width: 100%;
-       }
+        width: cover;
+        margin: 10px 0px 10px 0px;
+       }   
