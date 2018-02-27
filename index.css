@@ -12,4 +12,5 @@ body{
   text-align: center;
   background-image: url("cocktails.jpg");
   background-size: 50%;
+  Background-position: center;
 }
