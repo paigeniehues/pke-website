@@ -11,5 +11,5 @@ h1 {
 body{
   text-align: center;
   background-image: url("cocktails.jpg");
-  background-size: cover;
+  background-size: 50%;
 }
