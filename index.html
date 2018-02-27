@@ -13,14 +13,38 @@
       <div id='buttons'>
         <button class='btn btn-lg''btn-BARCRAWL'>Click to create a personalised bar crawl</button>
       </div>
+<<<<<<< HEAD
             <!--<h2 class="barcrawl"> PLAN A GREAT BAR CRAWL! </h2>-->
+=======
+    </div>
+
+    <div class="map">
+      <h1 class="location"> Locations</h1>
+      <div id="map"></div>
+          <script>
+            function initMap() {
+              var uluru = {lat: 53.3805, lng: -1.4790};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFcv-OkEn77zhkdRbMsPEPQDhvfcWvkiw&callback=initMap">
+          </script>
+>>>>>>> 78107fdcba4ba19865749e70750b54cc1788ab3d
     </div>
 
     <div class="toplists">
       <h3 class="lists"> Best cocktail bars in Sheffield! </h3>
       <a ul>
         <ul><a href="https://www.revoluciondecuba.com/bar/sheffield/">Revolution de Cuba</a></ul>
-        <ul><a href="https://www.forumsheffield.co.uk/">Forum Bar+Kitchen"</a></ul>
+        <ul><a href="https://www.forumsheffield.co.uk/">Forum Bar+Kitchen</a></ul>
         <ul><a href="https://www.thewickatbothends.com/">Wick at Both Ends </a></ul>
         <ul><a href="http://www.devonshirecat.co.uk/">Devonshire Cat </a></ul>
         <ul><a href="http://www.bloo88.com/">Bloo 88</a></ul>
