@@ -8,10 +8,12 @@ h1 {
   color: white;
   background-color: rgba(0,0,0,.5);
 }
+.barcrawl{
+  color: white;
+}
 .title{
   text-align: center;
   background-image: url("cocktails.jpg");
-  height: 400px;
   margin: 0px 100px 0px 100px;
   background-size: cover;
   Background-position: center;
