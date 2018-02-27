@@ -10,6 +10,7 @@ body{
 }
 .tagline{
   /*font-family: 'Pacifico', cursive;*/
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: white;
   background-color: rgba(0,0,0,.5);
   font-size: 30px;
@@ -48,4 +49,4 @@ ul{
         height: 400px;
         width: cover;
         margin: 10px 0px 10px 0px;
-       }   
+       }
