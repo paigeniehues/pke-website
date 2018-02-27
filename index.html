@@ -9,27 +9,65 @@
   <body>
     <div class="title">
       <h1 class="website-name"> Bar Fix </h1>
-<h2 class="tagline"> COCKTAILS + BARS + RESTAURANTS</h2>
+      <h2 class="tagline"> COCKTAILS + BARS + RESTAURANTS</h2>
       <div id='buttons'>
         <button class='btn btn-lg''btn-BARCRAWL'>Click to create a personalised bar crawl</button>
       </div>
-<<<<<<< HEAD
-            <!--<h2 class="barcrawl"> PLAN A GREAT BAR CRAWL! </h2>-->
-=======
     </div>
-
-    <div class="map">
-      <h1 class="location"> Locations</h1>
-      <div id="map"></div>
+    <div id="style-selector-control" class="map-control">
+          <input type="radio" name="show-hide" id="hide-poi"
+              class="selector-control">
+          <label for="hide-poi">Hide</label>
+          <input type="radio" name="show-hide" id="show-poi"
+              class="selector-control" checked="checked">
+          <label for="show-poi">Show</label>
+    </div>
+    <div id="map"></div>
           <script>
             function initMap() {
               var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 16,
-                center: {lat: 53.3790, lng: -1.4783}
+                zoom: 17,
+                center: {lat: 53.380353, lng: -1.476816},
+                mapTypeControl: false
               });
-              var uluru = {lat: 53.3805, lng: -1.4790};
+              var bungalowsandbears = {lat: 53.379926, lng: -1.475059};
               var marker = new google.maps.Marker({
-                position: uluru,
+                position: bungalowsandbears,
+                map: map
+              });
+              var revoluciondecuba = {lat: 53.3805, lng: -1.4790};
+              var marker = new google.maps.Marker({
+                position: revoluciondecuba,
+                map: map
+              });
+              var forum = {lat: 53.379347, lng: -1.477485}
+              var marker = new google.maps.Marker({
+                position: forum,
+                map: map
+              });
+              var wickatbothends = {lat: 53.380156, lng: -1.479040}
+              var marker = new google.maps.Marker({
+                position: wickatbothends,
+                map: map
+              });
+              var bloo88 = {lat: 53.380581, lng: -1.477937}
+              var marker = new google.maps.Marker({
+                position: bloo88,
+                map: map
+              });
+              var tigerworks = {lat: 53.380943, lng: -1.476217}
+              var marker = new google.maps.Marker({
+                position: tigerworks,
+                map: map
+              });
+              var bierkeller = {lat: 53.381234, lng: -1.474968}
+              var marker = new google.maps.Marker({
+                position: bierkeller,
+                map: map
+              });
+              var soyo = {lat: 53.380668, lng: -1.475611}
+              var marker = new google.maps.Marker({
+                position: soyo,
                 map: map
               });
             }
@@ -37,23 +75,22 @@
           <script async defer
           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFcv-OkEn77zhkdRbMsPEPQDhvfcWvkiw&callback=initMap">
           </script>
->>>>>>> 78107fdcba4ba19865749e70750b54cc1788ab3d
     </div>
 
     <div class="toplists">
-      <h3 class="lists"> Best cocktail bars in Sheffield! </h3>
+      <h3 class="lists"> COCKTAILS + BARS </h3>
       <a ul>
-        <ul><a href="https://www.revoluciondecuba.com/bar/sheffield/">Revolution de Cuba</a></ul>
-        <ul><a href="https://www.forumsheffield.co.uk/">Forum Bar+Kitchen</a></ul>
-        <ul><a href="https://www.thewickatbothends.com/">Wick at Both Ends </a></ul>
-        <ul><a href="http://www.devonshirecat.co.uk/">Devonshire Cat </a></ul>
-        <ul><a href="http://www.bloo88.com/">Bloo 88</a></ul>
-        <ul><a href="http://www.tiger-works.co.uk/">Tiger Works</a></ul>
         <ul><a href="https://thebierkeller.com/">Bierkeller</a></ul>
+        <ul><a href="http://www.bloo88.com/">Bloo 88</a></ul>
+        <ul><a href="https://www.bungalowsandbears.com/">Bungalows and Bears</a></ul>
+        <ul><a href="https://www.forumsheffield.co.uk/">Forum Bar+Kitchen</a></ul>
+        <ul><a href="https://www.revoluciondecuba.com/bar/sheffield/">Revolution de Cuba</a></ul>
         <ul><a href="http://soyo.me/">Soyo</a></ul>
+        <ul><a href="http://www.tiger-works.co.uk/">Tiger Works</a></ul>
+        <ul><a href="https://www.thewickatbothends.com/">Wick at Both Ends </a></ul>
       </a ul>
 
-      <h3 class="lists"> Best restaurants in Sheffield! </h3>
+      <h3 class="lists"> RESTAURANTS </h3>
       <a ul>
         <ul><a href="https://www.nandos.co.uk/restaurants/sheffield-west-street">Nando's</a></ul>
         <ul><a href="https://www.askitalian.co.uk/restaurant/sheffield/">Ask</a></ul>
