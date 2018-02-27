@@ -18,6 +18,14 @@ body{
 .barcrawl{
   color: white;
 }
+.btn {
+  font-family: 'Bershire Swash', cursive;
+  font-size: 25px;
+  color: orange;
+  background-color: rgba(0,0,0,.5);
+  border-color: orange;
+  margin: 10px 0px 10px 0px;
+}
 .title{
   text-align: center;
   background-image: url("cocktails.jpg");
