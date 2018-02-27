@@ -20,11 +20,11 @@ body{
   color: white;
 }
 .btn {
-  font-family: 'Bershire Swash', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 25px;
-  color: orange;
+  color: silver;
   background-color: rgba(0,0,0,.5);
-  border-color: orange;
+  border-color: grey;
   margin: 10px 0px 10px 0px;
 }
 .title{
