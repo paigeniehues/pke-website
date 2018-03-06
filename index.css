@@ -26,7 +26,7 @@ body{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 25px;
   color: white;
-  background-color; black;
+  background-color: black;
   border-color: grey;
   margin: 20px 0px 10px 0px;
 }
@@ -47,7 +47,7 @@ body{
 }
 .lists{
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 30px;
+  font-size: 45px;
   text-align: center;
   color: black;
 }
@@ -58,8 +58,9 @@ ul{
 }
 a{
   color: white;
-text-align:center;
-font-family:'Berkshire Swash', cursive;
+  background-color: black;
+text-align: center;
+font-family:'Yanone Kaffeesatz', sans-serif;
 font-size:20px;
 }
 #map {
@@ -74,14 +75,14 @@ table{
   margin: 5px 20px 0px 0px;
 }
 .lists1{
-  font-family:'Berkshire Swash', cursive;
-  font-size: 30px;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+  font-size: 45px;
   text-align: center;
   color: #FF4500;
 }
 .lists2{
-  font-family: 'Berkshire Swash', cursive;
-  font-size: 30px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 45px;
   text-align: center;
   color: #FF4500;
 }
