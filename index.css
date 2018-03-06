@@ -56,18 +56,10 @@ ul{
   color: white;
 }
 a{
-<<<<<<< HEAD
-  color: black;
+  color: white;
 text-align: center;
 font-family:'Yanone Kaffeesatz', sans-serif;
 font-size:30px;
-=======
-  color: white;
-  background-color: black;
-  text-align: center;
-  font-family:'Yanone Kaffeesatz', sans-serif;
-  font-size:20px;
->>>>>>> 24dde7238eadbdfd25a088e3b3d0979e81955004
 }
 #map {
   height: 500px;
