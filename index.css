@@ -25,8 +25,7 @@ body{
 .btn-group {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 25px;
-  color: white;
-  background-color: black;
+  color: black;
   border-color: grey;
   margin: 20px 0px 10px 0px;
 }
@@ -57,11 +56,10 @@ ul{
   color: white;
 }
 a{
-  color: white;
-  background-color: black;
+  color: black;
 text-align: center;
 font-family:'Yanone Kaffeesatz', sans-serif;
-font-size:20px;
+font-size:30px;
 }
 #map {
   height: 500px;
