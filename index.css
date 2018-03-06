@@ -22,11 +22,11 @@ body{
 .barcrawl{
   color: white;
 }
-.btn {
+.btn-group {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 25px;
-  color: silver;
-  background-color: rgba(0,0,0,.5);
+  color: white;
+  background-color; black;
   border-color: grey;
   margin: 20px 0px 10px 0px;
 }
@@ -54,10 +54,13 @@ body{
 ul{
   font-family: helvetica;
   text-align: center;
-  color: black;
+  color: white;
 }
 a{
-  color: black;
+  color: white;
+text-align:center;
+font-family:'Berkshire Swash', cursive;
+font-size:20px;
 }
 #map {
   height: 500px;
@@ -71,13 +74,13 @@ table{
   margin: 5px 20px 0px 0px;
 }
 .lists1{
-  font-family:serif;
+  font-family:'Berkshire Swash', cursive;
   font-size: 30px;
   text-align: center;
   color: #FF4500;
 }
 .lists2{
-  font-family: serif;
+  font-family: 'Berkshire Swash', cursive;
   font-size: 30px;
   text-align: center;
   color: #FF4500;
