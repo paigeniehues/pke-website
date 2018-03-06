@@ -59,9 +59,9 @@ ul{
 a{
   color: white;
   background-color: black;
-text-align: center;
-font-family:'Yanone Kaffeesatz', sans-serif;
-font-size:20px;
+  text-align: center;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+  font-size:20px;
 }
 #map {
   height: 500px;
