@@ -50,11 +50,23 @@ body{
   margin: 0px 100px 0px 100px;
   color: white;
 }
-.lists{
+.cocktails{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 45px;
+  text-align: left;
+  color: #FF4500;
+  background-color: black;
+  margin: 50px 50px 50px 50px;
+  padding: 150px 150px 150px 150px;
+}
+.restaurants{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 45px;
   text-align: center;
   color: #FF4500;
+  background-color: black;
+  margin: 50px 50px 50px 50px;
+  padding: 150px 150px 150px 150px;
 }
 a{
   color: white;
